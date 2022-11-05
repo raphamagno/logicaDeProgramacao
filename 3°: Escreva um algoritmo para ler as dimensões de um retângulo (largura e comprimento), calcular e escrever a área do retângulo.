@@ -1,0 +1,22 @@
+programa {
+
+  inclua biblioteca Matematica
+
+  funcao inicio() {
+  //3°: Escreva um algoritmo para ler as dimensões de um retângulo (largura e comprimento), calcular e escrever a área do retângulo.
+  //retangulo = largura * comprimento
+
+  real largura, comprimento, area
+
+  escreva("Qual é a largura do retângulo? \n")
+  leia(largura)
+
+  escreva("Qual é o comprimento do retângulo? \n")
+  leia(comprimento)
+
+  area = largura *comprimento
+
+  escreva("A área do retângulo é: \n", area)
+
+  }
+}
