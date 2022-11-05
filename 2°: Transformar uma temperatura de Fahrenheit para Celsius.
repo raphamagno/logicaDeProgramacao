@@ -1,0 +1,19 @@
+programa {
+
+  inclua biblioteca Matematica
+
+  funcao inicio() {
+   // 2°: Transformar uma temperatura de Fahrenheit para Celsius.
+
+    real fahrenheit, celsius
+
+    escreva("Qual é a temperatura em Fahrenheit que deseja transformar em Celsius? \n")
+    leia(fahrenheit)
+
+    celsius = (fahrenheit-32)/1.8
+
+    escreva("A temperatura em Celsius é: ", celsius,"º")
+    leia(celsius)
+
+  }
+}
