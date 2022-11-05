@@ -1,0 +1,29 @@
+// 1°: Crie um algoritmo para calcular o IMC do usuário. IMC = peso / altura²
+
+programa {
+
+  inclua biblioteca Matematica
+
+  funcao inicio() {
+    //1°: Crie um algoritmo para calcular o IMC do usuário. IMC = peso / altura²
+    
+    cadeia nome
+    real peso, altura, imc 
+
+    escreva("Informe seu nome: \n")
+    leia(nome)
+
+    escreva("Informe seu peso: \n")
+    leia(peso)
+
+    escreva("Informe sua altura: \n")
+    leia(altura)
+
+    imc = peso / (altura*altura)
+    imc = Matematica.arredondar(imc, 2)
+
+    escreva(nome, " tem peso: ", peso,". Altura: ",altura, " e o IMC: ", imc)
+
+    
+  }
+}
